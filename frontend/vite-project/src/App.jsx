@@ -4,7 +4,7 @@ import './App.css'
 
 function App() {
   const [name, setName] = useState([])
-  {fetch('http://localhost:3000/about')
+  {fetch('https://just-testing-75uf.vercel.app/about')
     .then(ress => ress.json())
     .then(data => setName(data.namee))}
   return (
